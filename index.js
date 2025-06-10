@@ -1,7 +1,7 @@
 let home_score_el = document.getElementById("home-score")
-home_score = 0
+let home_score = 0
 let guest_score_el = document.getElementById("guest-score")
-guest_score = 0
+let guest_score = 0
 
 function home_plus_one() {
     home_score += 1
